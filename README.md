@@ -7,7 +7,7 @@ Create random password to different length
   Window.createPass.init({
   
                           length  :  //length password , default: 3    ,
-                          upper  : //Uppercase letter , True or False  ,
-                          low  : //Lowercase letter, True or False     ,
-                          num  : //Number , True or False 
+                          upper  : //Uppercase letter , True or False,default: true,
+                          lowwer  : //Lowercase letter, True or False,default: false,
+                          number  : //Number , True or False ,default: false
                           }) ;
